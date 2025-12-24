@@ -7,7 +7,7 @@ answer=random.randint(lowest_int,highest_int)
 is_running=True
 print("Number Guessing Game")
 while is_running:
-    print(f"enter a number less than {highest_int} and more than {lowest_int}")
+    print(f"enter a number less more {lowest_int} and less than {highest_int}")
     guess=input("enter a number: ")
     if guess.isdigit():
         guess=int(guess)
@@ -26,3 +26,4 @@ while is_running:
     else:
         print("invalid guess")
         print(f"please enter the number between {lowest_int}-{highest_int}")
+
